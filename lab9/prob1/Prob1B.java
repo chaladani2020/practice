@@ -10,5 +10,10 @@ public class Prob1B {
 		System.out.println(Arrays.asList("Bill", "Thomas", "Mary")
 				                 .stream()
 				                 .collect(Collectors.joining(", ")));
+		
+		System.out.println(Arrays.asList("Bill", "Thomas", "Mary")
+				                 .stream()
+				                 .collect(Collectors.joining(", ")));
+		
 	}
 }
